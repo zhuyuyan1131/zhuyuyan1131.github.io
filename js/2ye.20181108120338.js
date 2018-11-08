@@ -4,7 +4,7 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=960){cw++;}if(w>=1200){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
 
 $(document).ready(function() {
-r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=1200){$('.js-61').attr('src', 'images/fengmian-1200.png');
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=1200){$('.js-61').attr('src', 'images/fengmian-1200-1.png');
 $('.js-62').attr('src', 'images/kuaizi-460.png');
 $('.js-63').attr('src', (dpi>1) ? 'images/yu-1328.png' : 'images/yu-664.png');
 $('.js-64').attr('src', 'images/sanjiao-49.png');
@@ -22,7 +22,7 @@ $('.js-75').attr('src', 'images/yingtao-120.png');
 $('.js-76').attr('src', 'images/huisetuoyuan-194.png');
 $('.js-77').attr('src', 'images/fense-171.png');
 $('.js-78').attr('src', (dpi>1) ? 'images/yi-196.png' : 'images/yi-98.png');
-$('.js-79').attr('src', 'images/chengse-103.png');}else if($(window).width()>=960){$('.js-61').attr('src', (dpi>1) ? 'images/fengmian-1920.png' : 'images/fengmian-960.png');
+$('.js-79').attr('src', 'images/chengse-103.png');}else if($(window).width()>=960){$('.js-61').attr('src', (dpi>1) ? 'images/fengmian-1920-1.png' : 'images/fengmian-960-1.png');
 $('.js-62').attr('src', (dpi>1) ? 'images/kuaizi-736.png' : 'images/kuaizi-368.png');
 $('.js-63').attr('src', (dpi>1) ? 'images/yu-1064.png' : 'images/yu-532.png');
 $('.js-64').attr('src', (dpi>1) ? 'images/sanjiao-78.png' : 'images/sanjiao-39.png');
@@ -40,7 +40,7 @@ $('.js-75').attr('src', (dpi>1) ? 'images/yingtao-192.png' : 'images/yingtao-96.
 $('.js-76').attr('src', (dpi>1) ? 'images/huisetuoyuan-312.png' : 'images/huisetuoyuan-156.png');
 $('.js-77').attr('src', (dpi>1) ? 'images/fense-274.png' : 'images/fense-137.png');
 $('.js-78').attr('src', (dpi>1) ? 'images/yi-158.png' : 'images/yi-79.png');
-$('.js-79').attr('src', 'images/chengse-83.png');}else{$('.js-61').attr('src', (dpi>1) ? 'images/fengmian-640.png' : 'images/fengmian-320.png');
+$('.js-79').attr('src', 'images/chengse-83.png');}else{$('.js-61').attr('src', (dpi>1) ? 'images/fengmian-640-1.png' : 'images/fengmian-320-1.png');
 $('.js-62').attr('src', (dpi>1) ? 'images/kuaizi-246.png' : 'images/kuaizi-123.png');
 $('.js-63').attr('src', (dpi>1) ? 'images/yu-348.png' : 'images/yu-174.png');
 $('.js-64').attr('src', (dpi>1) ? 'images/sanjiao-26-1.png' : 'images/sanjiao-13.png');
